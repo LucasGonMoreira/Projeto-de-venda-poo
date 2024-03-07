@@ -29,4 +29,9 @@ public class Venda {
         return valor;
     }
 
+    @Override
+    public String toString() {
+        String texto = String.format("Cliente %s comprou %s %s por R$%s, código do funcionário=%s", this.cliente.nome,this.quantidade, this.produto.nome,this.valorTotalVenda,this.vendedor.codigoDoVendedor);
+        return texto;
+    }
 }
