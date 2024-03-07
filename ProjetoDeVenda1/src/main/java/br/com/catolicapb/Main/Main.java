@@ -28,12 +28,15 @@ public class Main {
 
         Venda venda = new Venda(cliente, produto, 10,lucas);
 
+        System.out.println(venda);
+
         venda.calcularValor(10,12);
 
         System.out.println(venda.valorTotalVenda);
 
-        System.out.println(venda.vendedor);
+
 
     }
 
 }
+
